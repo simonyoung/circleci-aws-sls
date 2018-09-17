@@ -10,4 +10,4 @@ RUN sudo pip install --upgrade pip \
         awsebcli \
         awscli
 
-RUN yarn global add serverless
+RUN sudo yarn global add serverless
