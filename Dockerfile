@@ -1,5 +1,5 @@
 # Docker file to run Serverless, AWS CLI and EB CLI tools
-FROM circleci/node:8.10
+FROM circleci/node:10.15
 LABEL maintainer="Simon Young <simon180@mac.com>"
 
 RUN sudo apt-get install python-dev
